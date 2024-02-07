@@ -1,7 +1,6 @@
 import Search from "@/components/Search";
 import NavBar from "../components/layout/NavBar";
-import { MenuItem } from "./menu/MenuItem";
-import MyButton from "./menu/components/button";
+import { MenuItem } from "./menus/MenuItem";
 
 export default function Home() {
   return (
