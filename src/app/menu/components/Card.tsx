@@ -3,21 +3,21 @@ import React from "react";
 
 type Props = {
   data: {
-    menuName: string;
+    name: string;
     price: string;
     img: string;
   };
 };
 
 const Card = ({ data }: Props) => {
-  const { menuName, price, img } = data;
+  const { name, price, img } = data;
 
   return (
     <div>
       <div className="grid grid-cols-1 border border-gray-300">
         <div className="relative">
           <img
-            className="w-full p-2 border-b border-gray-300"
+            className="w-full p-2 border-b border-gray-300 z-0"
             src={img}
             alt="Wonton Noodle Soup"
           />
@@ -31,7 +31,7 @@ const Card = ({ data }: Props) => {
 
         <div className="p-2">
           <h1 className="text-sm md:text-base lg:text-lg font-light leading-6 -tracking-normal flex flex-row">
-            {menuName}
+            {name}
           </h1>
           <h1 className="text-sm md:text-base lg:text-lg font-normal text-right text-gray-500">
             {price}

@@ -1,6 +1,7 @@
 import Search from "@/components/Search";
 import NavBar from "../components/layout/NavBar";
-import { SectionOne } from "./menu/sectionOne";
+import { MenuItem } from "./menu/MenuItem";
+import MyButton from "./menu/components/button";
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
           alt="img"
         />
         <Search />
-        <SectionOne />
+        <MenuItem />
+        <MyButton />
       </div>
     </div>
   );
