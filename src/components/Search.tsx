@@ -2,7 +2,7 @@ import React from "react";
 
 const Search = () => {
   return (
-    <div className=" sticky top-16 z-1">
+    <div className=" sticky top-[9%] z-1">
       <form >
         <label className="mb-2 text-sm font-medium text-gray-900 sr-only">
           Search

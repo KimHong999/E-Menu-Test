@@ -11,8 +11,29 @@ export default function Home() {
           src="https://dkxj8skx6o8xc.cloudfront.net/clouddb/Do4OzB4MOYbX/Store/oo-top-banner_1660113977_1280.png"
           alt="img"
         />
-        <Search/>
-     
+        <Search />
+        <img
+          className="h-auto w-full"
+          src="https://dkxj8skx6o8xc.cloudfront.net/clouddb/Do4OzB4MOYbX/Store/oo-top-banner_1660113977_1280.png"
+          alt="img"
+        />
+        <img
+          className="h-auto w-full"
+          src="https://dkxj8skx6o8xc.cloudfront.net/clouddb/Do4OzB4MOYbX/Store/oo-top-banner_1660113977_1280.png"
+          alt="img"
+        />
+        <img
+          className="h-auto w-full"
+          src="https://dkxj8skx6o8xc.cloudfront.net/clouddb/Do4OzB4MOYbX/Store/oo-top-banner_1660113977_1280.png"
+          alt="img"
+        />
+        <img
+          className="h-auto w-full"
+          src="https://dkxj8skx6o8xc.cloudfront.net/clouddb/Do4OzB4MOYbX/Store/oo-top-banner_1660113977_1280.png"
+          alt="img"
+        />
+
+
       </div>
     </div>
   );
