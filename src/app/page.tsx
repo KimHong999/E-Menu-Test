@@ -1,5 +1,6 @@
 import Search from "@/components/Search";
 import NavBar from "../components/layout/NavBar";
+import { SectionOne } from "./menu/sectionOne";
 
 export default function Home() {
   return (
@@ -11,8 +12,8 @@ export default function Home() {
           src="https://dkxj8skx6o8xc.cloudfront.net/clouddb/Do4OzB4MOYbX/Store/oo-top-banner_1660113977_1280.png"
           alt="img"
         />
-        <Search/>
-     
+        <Search />
+        <SectionOne />
       </div>
     </div>
   );
