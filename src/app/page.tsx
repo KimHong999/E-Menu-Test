@@ -15,7 +15,6 @@ export default function Home() {
         />
         <Search />
         <MenuItem />
-        <MyButton />
       </div>
     </div>
   );
