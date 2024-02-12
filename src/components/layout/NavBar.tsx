@@ -4,7 +4,7 @@ import React from "react";
 const NavBar = () => {
   return (
     <nav className="bg-white border-gray-200">
-      <div className="flex-no-wrap fixed top-0 z-10 flex w-full items-center justify-between bg-white py-2 shadow-md shadow-black/5lg:flex-wrap lg:justify-start lg:py-2">
+      <div className="min-h-[70px] flex-no-wrap fixed top-0 z-10 flex w-full items-center justify-between bg-white shadow-md shadow-black/5lg:flex-wrap lg:justify-start">
         <div className="flex w-full items-center justify-between mx-10">
           <a
             href="https://flowbite.com/"
@@ -22,7 +22,7 @@ const NavBar = () => {
           <button
             data-collapse-toggle="navbar-default"
             type="button"
-            className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
+            className="inline-flex items-center w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
             aria-controls="navbar-default"
             aria-expanded="false"
           >

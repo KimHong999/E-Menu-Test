@@ -1,0 +1,10 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.active {
+  background-color: lightgray;
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 2px solid gray;
+}

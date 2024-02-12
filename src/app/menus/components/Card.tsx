@@ -1,24 +1,19 @@
 import { MdFavoriteBorder, MdFavorite } from "react-icons/md";
 import React from "react";
+import { DataProps } from "../MenuItem";
 
-type Props = {
-  data: {
-    name: string;
-    price: string;
-    img: string;
-  };
-};
 
-const Card = ({ data }: Props) => {
-  const { name, price, img } = data;
+
+const Card = ({ data }: {data: DataProps}) => {
+  const { name, price, image_url } = data;
 
   return (
     <div>
       <div className="grid grid-cols-1 border border-gray-300">
-        <div className="relative">
+        <div>
           <img
             className="w-full p-2 border-b border-gray-300 z-0"
-            src={img}
+            src={image_url}
             alt="Wonton Noodle Soup"
           />
 

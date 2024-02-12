@@ -1,8 +1,14 @@
 import Search from "@/components/Search";
 import NavBar from "../components/layout/NavBar";
 import { MenuItem } from "./menus/MenuItem";
+import ScrollBar from "@/components/itemMenu/ScrollBar";
+import fetchCategories from "../data/category_dummy.json";
+import fetchData from "../data/dummy.json";
 
 export default function Home() {
+  const categories = fetchCategories.categories;
+  const data = fetchData.data;
+
   return (
     <div>
       <NavBar />
@@ -13,7 +19,8 @@ export default function Home() {
           alt="img"
         />
         <Search />
-        <MenuItem />
+
+        <MenuItem data={data} categories={categories} />
       </div>
     </div>
   );
